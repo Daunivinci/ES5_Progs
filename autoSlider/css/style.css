@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#slider {
+	width: 1356px;;
+	height: 512px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+
+}
+
+img {
+	width: 400px;
+}
+
+#row {
+	width: 2564px;
+	position: relative;
+	background-color: pink;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#row img {
+	float: left;	
+
+}
+
+#row::after {
+	content: "";
+	display: block;
+	clear: both;
+}

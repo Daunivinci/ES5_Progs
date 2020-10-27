@@ -1,0 +1,13 @@
+#test {
+	width: 150px;
+	height: 150px;
+	background-color: pink;
+	margin: 30px;
+}
+
+#out {
+	width: 300px;
+	height: 30px;
+	margin: 20px;
+	border: none;
+}

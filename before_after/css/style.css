@@ -1,0 +1,27 @@
+#myslide, #myslide_old {
+	width: 768px;
+	height: 632px;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
+
+#one, #two, #ont, #twt {
+	width: 768px;
+	height: 632px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	transition: all ease 100ms;
+}
+
+#one, #ont {
+	background-color: yellow;
+}
+
+#two, #twt {
+	background-color: blue; 	
+}
